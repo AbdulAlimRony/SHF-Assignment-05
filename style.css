@@ -1,0 +1,250 @@
+body{
+margin: 0; padding: 0;
+font-family: 'Poppins', sans-serif;
+background-color: WhiteSmoke;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+margin-bottom: 10px;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li{
+float: left;
+}
+
+ul li a{
+	display: block;
+	padding: 10px 10px;
+}
+a{
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+}
+
+a{
+color: SeaGreen;
+}
+ .btn{
+border: 2px solid SeaGreen;
+border-radius: 3px;
+padding: 0.8em 1.8em;
+background-color: SeaGreen;
+color: white;
+}
+.btn:hover{
+	border: none;
+	background-color: transparent;
+	color: SeaGreen;
+	border: 2px solid white;
+}
+.btn-outline {
+border: 2px solid white;
+color: SeaGreen;
+border-radius: 3px;
+padding: 0.8em 1.8em;
+background-color: transparent;
+}
+.btn-outline:hover{
+ border: 2px solid transparent;
+ color: white;
+ background-color: SeaGreen;
+}
+section, header{
+margin-bottom: 30px;
+}
+.container-full{
+width: 100%;
+}
+.container{
+padding-left: 5%;
+padding-right: 5%;
+}
+#logo-section{
+	margin-top: 100px;
+}
+#home{
+	background-color: Black;
+	color: white;
+}
+#home a{color: white;}
+#home #top-menu, #home #logo-section{
+	height: 80px;
+	padding: 20px 0;
+}
+#logo-section{
+	margin-top: -20px;
+}
+.address{
+	float: left;
+}
+.top-menu{
+	/*margin-left: 1175px;*/
+	float: right;
+}
+#logo-section{
+	overflow: hidden;
+}
+#logo-section .logo{
+	float: left;
+	margin-top: -30px;
+}
+#logo-section .logo img{
+	height: 100px;
+	width: 100px;
+}
+#logo-section .search-bar{
+	float: right;
+}
+.search-bar input, .sub input{
+	border: 2px solid green;
+	height: 30px;
+	width: 500px;
+	padding: 6px 8px;
+	background-color: transparent;
+}
+.search-bar input:focus{
+	background-color: white;
+	border: none;
+}
+.search-bar button{
+	height: 45.5px;
+	padding: 6px 8px;
+	margin-left: -6px;
+	border: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.search-bar button:hover{
+ background-color: MediumSeaGreen;
+ color: white;
+ border: none;
+ }
+#main-menu{
+	background-color: white;
+	margin-top: -50px;
+	padding-top: 1px;
+}
+#main-menu::after{
+	content: "";
+	display: block;
+	height: 1.5px;
+	background-color: Silver;
+}
+#main-menu nav{
+	margin-left: 550px;
+}
+#main-menu li a:hover{
+	border-top: 3px solid SeaGreen;
+	border-bottom: 3px solid SeaGreen;
+}
+.slider-bg{
+	height: 500px;
+	padding: 10px;
+	background-color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.catalog-menu, .slider, .promotion{
+	margin: 10px;
+}
+.catalog-menu{
+	float: left;
+}
+.category-lists ul{
+	margin: 0;
+	padding: 0;
+}
+.category-lists ul li{
+	float: none;
+}
+.category-lists ul li{
+	border-bottom: 0.5px solid silver;
+}
+.slider{
+	padding: 10px;
+}
+.slider img{
+	height: 436px;
+	width: 980px;
+	margin-top: 24px;
+	margin-left: 10px;
+}
+.promotion{
+	float: right;
+	margin-top: -450px;
+}
+.promotion img{
+	display: block;
+	height: 130px;
+	width: 225px;
+	margin-bottom: 10px;
+}
+.buttons{
+	margin-left: 550px;
+}
+.buttons button:hover{
+	border: 2px solid DarkSlateGrey;
+	border-radius: 0 0 0 0;
+	background-color: DarkSlateGrey;
+	color: white;
+}
+#all-posts table td h2, #all-posts table td p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#all-posts .post-card img{
+	height: 230px;
+	width: 100%;
+}
+#all-posts td{
+	background-color: white;
+}
+#all-posts .post-card h2{
+	color: LightSlateGray;
+}
+#all-posts .post-card p{
+	color: Grey;
+}
+#footer{
+	padding-top: 10px;
+	height: 500px;
+	background-color: black;
+	color: white;
+}
+#footer .logo{
+	margin-left: 570px;
+	margin-top: 10px;
+}
+#footer .logo img{
+	height: 80px;
+	width: 80px;
+}
+#footer .foot-menu{
+	margin-left: 240px;
+}
+#footer .foot-menu a{
+	color: SlateGrey;
+}
+.sub{
+	margin-left: 370px;
+}
+.sub button{
+	height: 50px;
+	background-color: Crimson;
+	border: none;
+}
+.copyright{
+	margin-top: 70px;
+	margin-left: 470px;
+}
+
+
+
+
+
+
