@@ -32,7 +32,7 @@ color: SeaGreen;
  .btn{
 border: 2px solid SeaGreen;
 border-radius: 3px;
-padding: 0.8em 1.8em;
+padding: 12.8px 28.8px;
 background-color: SeaGreen;
 color: white;
 }
@@ -46,7 +46,7 @@ color: white;
 border: 2px solid white;
 color: SeaGreen;
 border-radius: 3px;
-padding: 0.8em 1.8em;
+padding: 12.8px 28.8px;
 background-color: transparent;
 }
 .btn-outline:hover{
@@ -61,8 +61,8 @@ margin-bottom: 30px;
 width: 100%;
 }
 .container{
-padding-left: 5%;
-padding-right: 5%;
+padding-left: 50px;
+padding-right: 50px;
 }
 #logo-section{
 	margin-top: 100px;
@@ -139,8 +139,11 @@ padding-right: 5%;
 	margin-left: 550px;
 }
 #main-menu li a:hover{
-	border-top: 3px solid SeaGreen;
-	border-bottom: 3px solid SeaGreen;
+	background-color: SeaGreen;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 3px;
 }
 .slider-bg{
 	height: 500px;
@@ -204,11 +207,78 @@ padding-right: 5%;
 #all-posts td{
 	background-color: white;
 }
-#all-posts .post-card h2{
+#all-posts .post-card h2 a{
 	color: LightSlateGray;
+}
+#all-posts .post-card h2 a:hover{
+	color: SeaGreen;
+	border-bottom: 1px solid LightSlateGray;
 }
 #all-posts .post-card p{
 	color: Grey;
+}
+#bloggers ul{
+	padding: 0;
+	margin: 0;
+	width: 372px;
+	height: 535px;
+	background-color: Black;
+	color: white;
+	overflow: scroll;
+	margin-top: -10px;
+}
+.bloggers h2, .bloggers ul li{
+	padding: 10px;
+}
+.bloggers h2, .b-title{
+	background-color: SeaGreen;
+	color: white;
+}
+.b-title{
+	padding: 10px;
+	margin-top: -20px;
+}
+#bloggers ul li{
+	float: none;
+	height: 50px;
+}
+#bloggers ul li::before {
+  content: "✅";
+  margin-right: 5px;
+}
+
+#bloggers ul li:nth-child(2n){
+	background-color: DimGray;
+}
+#bloggers ul li:nth-child(2n+1){
+	background-color: Gray;
+}
+#bloggers .table2{
+	width: 400px;
+	height: 535px;
+	background-color: white;
+	margin-top: -10px;
+	margin-bottom: -15px;
+}
+#bloggers .table2 input, #bloggers .table2 input:focus{
+	width: 350px;
+	height: 35px;
+	padding: 5px;
+	border: none;
+	border: 2px solid SeaGreen;
+}
+#bloggers button:hover{
+	border: 5px solid GhostWhite;
+	background-color: SeaGreen;
+	color: white;
+}
+textarea{border: none;
+	border: 2px solid SeaGreen;
+}
+.blog-img img{
+	width: 500px;
+	height: 600px;
+	margin-right: 50px;
 }
 #footer{
 	padding-top: 10px;
@@ -233,10 +303,14 @@ padding-right: 5%;
 .sub{
 	margin-left: 370px;
 }
-.sub button{
+.input button, #all-posts button{
 	height: 50px;
 	background-color: Crimson;
 	border: none;
+}
+#all-posts button:hover{
+	color: black;
+	background-color: LightCoral;
 }
 .copyright{
 	margin-top: 70px;
